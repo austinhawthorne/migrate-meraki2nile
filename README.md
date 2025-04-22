@@ -20,4 +20,6 @@ Discovered VLANs: \
 Writing migration CSV... \
 Done — migration CSV exported to migration_clients.csv 
 
+Notes:
+- This does not check to see if a client authentciated with 802.1X (thus not requiring an import).  Logic will needed to be added for this if that is implemented on the Meraki network.
 
